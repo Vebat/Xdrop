@@ -3,22 +3,24 @@ import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+<div>
+  <nav>
+     <ul class="menu">
+      <li class="logo"><img src='logo32.png' id="logomenu" alt='logo'></img></li>
+      <li>КЕЙСЫ</li>
+      <li>КОНТРАКТ</li>
+      <li>АПГРЕЙД</li>
+      <li>КОИНФЛИП</li>
+      <li id='profmenu'><img src='prof.jpg'></img></li>
+      </ul> 
+  </nav>
+  <main></main>
+  <footer>
+    <p>Сайт не является публичной афертой</p>
+    <p><a href=''>Лицензионное соглашение</a></p>
+  </footer>
+</div>
+
   );
 }
 
